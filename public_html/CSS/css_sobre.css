@@ -1,9 +1,16 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
-/* 
-    Created on : 23/03/2023, 20:30:11
-    Author     : leonardo.fserra
-*/
+body{
+    color: #333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px
+    
+}
+h1{
+    
+    
+    border: 2px solid #ccc ;
+    border-right: -10px;
+     padding: 5px;
+}
 
