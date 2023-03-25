@@ -1,32 +1,53 @@
-.login{
+.login {
     margin-top: 500px;
     margin-left: 700px;
     background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
 }
 
-LINE_COMENT Leo 
-
-#img1{
-    background-repeat: no-repeat;
-    width: auto;    
-}
-
 /* Leo */
 
-.imovel1 p{
-    margin: 0px auto;
+#valor { 
+    margin-left: 800px;
 }
 
-.imovel1 {
+.imagem {
+    background-repeat: no-repeat;
+    width: auto;
+    margin-left: 250px;
+}
+
+.container li {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: background;
+}
+
+.container{
+    width: 500px;
+    height: 50px;
+    margin: 0 auto 0 500px;
+    padding: 5px 0 5px 20px;
+    font-size: 20px;
+    background-color: azure;
+}
+
+.descricao{
+    margin-left: 50px;
+    background-color: silver;
+    width: 900px
+    
+}
+
+.imovel {
     background-color: rgba(0, 0, 0, 0.8);
-    margin: 50px 50px;
-    padding: 20px;
+    margin: 30px 50px;
+    padding: 20px;  
     height: 500px;
     width: 1000px
 }
 
-p{
+p {
     font-size: 14px;
     font-family: sans-serif;
 }
