@@ -17,19 +17,35 @@
     margin-left: 250px;
 }
 
-.container li {
-    display: inline-block;
-    margin-right: 20px;
-    background-color: background;
+#botao:first-child{
+    
 }
 
-.container{
-    width: 500px;
-    height: 50px;
-    margin: 0 auto 0 500px;
-    padding: 5px 0 5px 20px;
+#botao{
+    width: auto;
+    padding: 10px
+    
+}
+
+.doisprimeiros {
+    margin-right: 20px;
+}
+
+.menu li:first-child {
+    margin-left: 15px
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu{
+    width: 270px;
+    height: 40px;
+    margin: 0 auto;
     font-size: 20px;
-    background-color: azure;
+    font-family: Helvetica, sans-serif;
+    background-color: background;
 }
 
 .descricao{
@@ -49,7 +65,7 @@
 
 p {
     font-size: 14px;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 /* Pedro */

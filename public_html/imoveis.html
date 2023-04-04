@@ -1,21 +1,22 @@
 <html lang="pt-br">
     <head>
         <title>Imoveis</title>
-        
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/reset.css" rel="stylesheet" type="text/css"/>
         <link href="CSS/css_estilos.css" rel="stylesheet" type="text/css"/>
     </head>
-    <header class="container">
-        <nav> 
-            <ul>
-                <li>Cadastro</li>
-                <li>Chat</li>
-                <li>Logout</li>
-            </ul>
-        </nav>
-    </header>
     <body>
+        <header class="menu">
+            <nav> 
+                <ul>
+                    <li class="doisprimeiros"><button id="botao">Cadastro</button></li>
+                    <li class="doisprimeiros"><button id="botao">Chat</button></li>
+                    <li><button id="botao">Logout</button></li>
+                </ul>
+            </nav>
+        </header>
         <div class="imovel">
             <h1>Imovel 1</h1>
             <p>
@@ -25,10 +26,10 @@
                 <img src="IMG/imoveis/img1.jpg" alt="imagem 1"/>
                 <figcaption>Imovel para alugar</figcaption>  
             </figure>
-            
+
             <p id="valor"> Valor em R$</p>
             <p class="descricao"> texto descrição do imovel <br></br>
-            algumas</p>
+                algumas</p>
         </div>
     </body>
 </html>
