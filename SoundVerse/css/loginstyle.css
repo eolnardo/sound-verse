@@ -1,12 +1,51 @@
-
-body{
+body {
     background-color: #0D1117;
+
 }
 
-h1{
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alinha-senha {
+    padding: 0 14% 0 0;
+}
+
+.alinha-usuario {
+    padding: 0 13% 0 0;
+}
+
+
+h1 {
+    margin: 10% 0 0 0;
+    display: block;
     color: #007DFF;
     font-family: "Sora", sans-serif;
 }
-p{
+
+h3 {
+    display: inline-block;
+    color: #5799e0;
+    font-family: "Sora", sans-serif;
+}
+
+p {
     font-family: "Source Sans Pro", sans-serif;
+}
+
+input {
+    margin: 0 0 0 41%;
+    padding: 0 115px 0 0;
+}
+
+button {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    border: #5799e0;
+    display: block;
+    text-align: center;
 }
