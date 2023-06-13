@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&amp;family=Source+Sans+Pro:wght@300;400&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <title>Nubank</title>
+
+    <script src="js/svg-inject.min.js"></script>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header id="header">
+        <!--========== NAVBAR MOBILE ==========-->
+        <nav class="navbar-mobile">
+            <div class="bx" id="bx"></div>
+            <div class="logo">
+                <a href="#">
+                    <img src="svg/logonu.svg" onload="SVGInject(this)" />
+                </a>
+            </div>
+            <a href="#">Login</a>
+        </nav>
+
+        <!--========== NAVBAR DESKTOP ==========-->
+        <nav class="navbar-desktop" data-aos="fade-up" data-aos-delay="0">
+            <div class="navbar-desktop-item-1">
+                <div class="logo">
+                    <a href="#">
+                        <img src="svg/logonu.svg" onload="SVGInject(this)" />
+                    </a>
+                </div>
+                <ul class="menu-desktop">
+                    <li class="menu-item" id="menu-item-1">
+                        <a href="#" class="nav-link-desktop">SoundVerse</a>
+                        <ul class="dropdown-menu" id="dropdown-item-1">
+                            <li class="dropdown-item mb-1"> <a href="#" class="nav-link-dropdown">O Sound</a> </li>
+                            <li class="dropdown-item mb-1"> <a href="#" class="nav-link-dropdown">Carreiras</a> </li>
+                            <li class="dropdown-item"> <a href="#" class="nav-link-dropdown">Imprensa</a> </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item" id="menu-item-2">
+                        <a href="#" class="nav-link-desktop">Conta SoundVerse</a>
+                        <ul class="dropdown-menu" id="dropdown-item-2">
+                            <li class="dropdown-item mb-1"> <a href="#" class="nav-link-dropdown">Crie sua conta</a>
+                            </li>
+                            <li class="dropdown-item mb-1"> <a href="#" class="nav-link-dropdown">Top Musicas</a>
+                            </li>
+                            <li class="dropdown-item"> <a href="#" class="nav-link-dropdown">Poste sua Musica</a> </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item" id="menu-item-3">
+                        <a href="#" class="nav-link-desktop">Pra você</a>
+                        <ul class="dropdown-menu" id="dropdown-item-3">
+                            <li class="dropdown-item mb-1"> <a href="#" class="nav-link-dropdown">Comunidade</a> </li>
+                            <li class="dropdown-item mb-1"> <a href="#" class="nav-link-dropdown">Rewards</a> </li>
+                            <li class="dropdown-item"> <a href="#" class="nav-link-dropdown">Novidades</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-desktop-item-2">
+                <a href="#" class="btn">Quero ser Sound</a>
+                <a href="#" class="ml-2">Login</a>
+            </div>
+        </nav>
+
+        <!--========== MENU-MOBILE ==========-->
+        <nav class="menu-mobile" id="menu-mobile">
+            <ul class="nav-list-mobile mb-5">
+                <li class="mb-1"> <a href="#" class="nav-link-mobile">SoundVerse</a> </li>
+                <li class="mb-1"> <a href="#" class="nav-link-mobile">Conta Digital</a> </li>
+                <li class="mb-1"> <a href="#" class="nav-link-mobile">Pra você</a> </li>
+                <li class="mb-1"> <a href="#" class="nav-link-mobile">Quero ser SoundVerse</a> </li>
+                <li class="mt-3 flex-center">
+
+                    <a href="#"><img src="svg/icon-facebook.svg" class="mx-1" loading="lazy"
+                            onload="SVGInject(this)" /></a>
+                    <a href="#"><img src="svg/icon-youtube.svg" class="mx-1" loading="lazy"
+                            onload="SVGInject(this)" /></a>
+                    <a href="#"><img src="svg/icon-instagram.svg" class="mx-1" loading="lazy"
+                            onload="SVGInject(this)" /></a>
+                    <a href="#"><img src="svg/icon-twitter.svg" class="mx-1" loading="lazy" onload="SVGInject(this)" />
+                    </a>
+
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--========== HERO ==========-->
+    <div class="bg-home">
+        <img src="svg/bg-home.svg" class="svg-bg-home" loading="lazy" onload="SVGInject(this)" />
+    </div>
+    <main class="container hero py-5">
+        <div class="flex-item-1 py-4" data-aos="fade-up" data-aos-delay="400">
+
+            <h1>
+                SoundVerse, Desbut.
+            </h1>
+            <p class="my-2">
+                O Melhor catálogo de musicas, preçi justo
+                e sem anuidade e o melhor: resolva tudo pelo app.
+            </p>
+            <div class="flex-start">
+                <a href="#" class="btn">Quero ser SoundVerse</a>
+                <a href="#appstore"><img class="width-auto ml-2" src="svg/appstore.svg" loading="lazy"
+                        onload="SVGInject(this)" /></a>
+                <a href="#playstore"><img class=" width-auto ml-2" src="svg/playstore.svg" loading="lazy"
+                        onload="SVGInject(this)" /></a>
+            </div>
+
+        </div>
+        <div class="flex-center flex-item-3 div-card py-4" data-aos="fade-up" data-aos-delay="600">
+            <img src="svg/icon-card.svg" class="icon-card-hero dropshadow" loading="lazy" onload="SVGInject(this)" />
+            <img src="svg/icon-mobile.svg" class="icon-mobile-hero dropshadow" loading="lazy"
+                onload="SVGInject(this)" />
+            <img src="svg/icon-contactless.svg" class="icon-contactless-hero dropshadow" loading="lazy"
+                onload="SVGInject(this)" />
+            <div class="card"></div>
+        </div>
+    </main>
+
+
+    <!--========== SECTION PEOPLE ==========-->
+    <section class="container">
+
+        <div class="flex-item-4 flex-column mx-2" style="min-width: 220px;" data-aos="fade-up" data-aos-delay="200">
+            <h5 class="mb-1 mt-2">Para todos</h5>
+            <h2 class="mb-1">Completo.</h2>
+            <p class="my-2">
+                Escute Musicas no seu dia a dia pelo celular. Sem Anuncios, sem anuidade, sem tarifas abusivas.
+                Cuide do seu plano de um jeito simples. Somos eficientes para você escutar suas
+                musicas com a melhor qualidade, e com suporte 24h.
+            </p>
+            <ul class="list">
+                <li class="list-item bg-icon-check">
+                    <strong class="mt-1" style="display: block;">100% gratuito.</strong>
+                    <p>
+                        Isso mesmo, você não paga nada para escutar suas músicas.
+                    </p>
+                </li>
+                <li class="list-item bg-icon-check">
+                    <strong class="mt-1" style="display: block;">Sem taxas ou cobranças.</strong>
+                    <p>
+                        Não se preocupe com taxas adicionais.
+                    </p>
+                </li>
+                <li class="list-item bg-icon-check">
+                    <strong class="mt-1" style="display: block;">O melhor suporte de todos.</strong>
+                    <p>
+                        Segundo pesquisas, temos a melhor qualidade na musica.
+                    </p>
+                </li>
+            </ul>
+            <p>
+                <a href="#" class="link">Confira os nosso catálogo</a>
+            </p>
+
+
+        </div>
+        <div class="flex-item-3 flex-column mx-2" data-aos="fade-up" data-aos-delay="200">
+            <img src="svg/svg-people1.svg" loading="lazy" onload="SVGInject(this)" />
+        </div>
+        <div class="flex-item-1 flex-column mx-2 my-3" data-aos="fade-up" data-aos-delay="300">
+            <img src="svg/svg-people2.svg" class="mx-2 my-2 img-people2" loading="lazy" onload="SVGInject(this)" />
+            <img src="svg/svg-people3.svg" class="mx-2 my-2" loading="lazy" onload="SVGInject(this)" />
+        </div>
+
+    </section>
+
+    <!--========== O MELHOR ==========-->
+    <section class="container">
+        <div class="best px-3 py-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="flex-auto m-2">
+                <h5>O melhor</h5>
+                <h2>Por que SoundVerse?</h2>
+            </div>
+            <div class="best-item flex-auto">
+                <img src="svg/icon-cash.svg" class="icon width-auto" loading="lazy" onload="SVGInject(this)" />
+                <p class="mt-2 bold">Lançamentos na mesma hora</p>
+            </div>
+            <div class="best-item flex-auto">
+                <img src="svg/icon-transfer.svg" class="icon width-auto" loading="lazy" onload="SVGInject(this)" />
+                <p class="mt-2 bold">Transferências de musicas ilimitadas</p>
+            </div>
+            <div class="best-item flex-auto">
+                <img src="svg/icon-card.svg" class="icon width-auto" loading="lazy" onload="SVGInject(this)" />
+                <p class="mt-2 bold">Conta 100% gratuita</p>
+            </div>
+            <div class="best-item flex-auto">
+                <img src="svg/icon-phone.svg" class="icon width-auto" loading="lazy" onload="SVGInject(this)" />
+                <p class="mt-2 bold">O melhor suporte 24h do Brasil</p>
+            </div>
+        </div>
+    </section>
+
+    <!--========== MOBILE ==========-->
+    <section class="container">
+
+        <div class="flex-item-1 flex-center mx-3 relative" data-aos="fade-up" data-aos-delay="300">
+            <div class="pulse"></div>
+            <img src="svg/fignu2.svg" loading="lazy" onload="SVGInject(this)" />
+        </div>
+        <div class="flex-item-3 flex-column mx-2" data-aos="fade-up" data-aos-delay="400">
+            <h5 class="mb-1 mt-2">Conta SoundVerse</h5>
+            <h2 class="mb-1">Tudo pelo App.</h2>
+            <p class="my-2">
+                Nossa catalogo de musicas digitais com mais de 20 milhões de usuários em todo o Brasil.
+                Escute suas musicas, ajuste suas playlists, assine e cancele quando
+                quiser e acompanhe cada movimentação em tempo real. Tudo pelo aplicativo.
+            </p>
+
+            <ul class="list">
+                <li class="list-item bg-icon-mobile">
+                    <strong>Universo de musicas na palma da sua mão</strong>
+                    <p>
+                        SoundVerse digital. Você escuta tudo pelo App. Tudo.
+                    </p>
+                </li>
+                <li class="list-item bg-icon-time">
+                    <strong>Sem filas ou burocracias</strong>
+                    <p>
+                        Rápida velocidade de download de musicas. Economia de tempo.
+                    </p>
+                </li>
+                <li class="list-item bg-icon-config">
+                    <strong>Configure suas preferencias tudo no app</strong>
+                    <p>
+                        Toda a configuração e acesso aos novos recursos a um clique
+                        de distância.
+                    </p>
+                </li>
+            </ul>
+            <p>
+                <a href="#" class="link">Sem complicações</a>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!--========== CARD ==========-->
+    <section class="container">
+
+        <div class="flex-item-3 flex-column mx-2" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="mb-1 mt-2">seu SoundVerse</h5>
+            <h2 class="mb-1">Milhares de Artistas.</h2>
+            <p class="my-2">
+                Você pode Escutar o SoundVerse quando quiser. Além disso, ele pode ser descrito como um ,
+                aplicativo moderno, gratuito e prático. Com o Sound Verse, você terá facilidade e segurança 
+                para aproveitar sua música favorita em qualquer lugar. Com mais de 30 milhões de faixas disponíveis.
+            </p>
+
+            <ul class="list">
+                <li class="list-item bg-icon-contactless">
+                    <strong>Tecnologia Contactless</strong>
+                    <p>
+                        Tecnologia de criação de playlist automática. Mais agilidade
+                        no dia a dia.
+                    </p>
+                </li>
+                <li class="list-item bg-icon-card">
+                    <strong>Conta virtual</strong>
+                    <p>
+                        Você pode gerenciar contas para toda a família.
+                        Mais segurança.
+                    </p>
+                </li>
+            </ul>
+            <p>
+                <a href="#" class="link">Saiba mais</a>
+            </p>
+
+        </div>
+        <div class="flex-item-1 flex-center mx-3" data-aos="fade-up" data-aos-delay="400">
+            <img src="svg/fignu3.svg" loading="lazy" onload="SVGInject(this)" />
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="box" data-aos="fade-up" data-aos-delay="300">
+        <h5 class="mb-1 mt-2">depoimentos</h5>
+        <h2 class="mb-1">Todos amam o SoundVerse</h2>
+    </section>
+    <section class="container-swiper hidden" data-aos="fade-up" data-aos-delay="400">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="photo-profile my-1 photo-1"></div>
+                    <h4 class="my-1">Jorge Silva</h4>
+                    <p class="my-1">
+                        O Sound Verse é uma verdadeira obra-prima musical! Com uma interface elegante e intuitiva,
+                        ele leva você em uma jornada sonora incrível.
+                        Parabéns pela criação de um aplicativo tão maravilhoso!"
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="photo-profile my-1 photo-2"></div>
+                    <h4 class="my-1">Anna Keller</h4>
+                    <p class="my-1">
+                        O Sound Verse é uma sinfonia de funcionalidades e qualidade sonora.
+                        Estou impressionado com a variedade de artistas e gêneros disponíveis.
+                        Vocês realmente trouxeram a música para o próximo nível!".
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="photo-profile my-1 photo-3"></div>
+                    <h4 class="my-1">Gabriela Shuzz</h4>
+                    <p class="my-1">
+                        O Sound Verse é simplesmente viciante! Não consigo parar de explorar suas infinitas possibilidades musicais.
+                        É incrível como vocês conseguiram criar um aplicativo tão envolvente e cativante. Parabéns pela excelência!
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="photo-profile my-1 photo-4"></div>
+                    <h4 class="my-1">Lia Vieira</h4>
+                    <p class="my-1">
+                        O Sound Verse é um verdadeiro tesouro para os amantes da música.
+                        Com sua vasta biblioteca de faixas e recursos inteligentes de recomendação,
+                        ele se destaca como um aplicativo indispensável. Vocês acertaram em cheio!
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="photo-profile my-1 photo-5"></div>
+                    <h4 class="my-1">Théo Gomes</h4>
+                    <p class="my-1">
+                        O Sound Verse é como uma playlist personalizada dos meus sonhos. Cada vez que uso o aplicativo,
+                        descubro novos artistas e músicas incríveis.
+                        Obrigado por trazer tanta diversidade musical para o meu dia a dia!
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="photo-profile my-1 photo-6"></div>
+                    <h4 class="my-1">Marcela Sousa</h4>
+                    <p class="my-1">
+                        O Sound Verse é uma verdadeira revolução no mundo da música digital. Sua qualidade sonora é impecável,
+                         e a facilidade de uso é impressionante. Parabéns por criar um aplicativo tão inovador e envolvente!"
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="button-next"></div>
+        <div class="button-prev"></div>
+    </section>
+
+
+
+
+    <!--========== FAÇA SUA CONTA ==========-->
+    <section class="container">
+
+        <div class="flex-item-3 flex-column mx-2" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="mb-1 mt-2">faça sua conta</h5>
+            <h2 class="mb-1">Baixe. É gratuito.</h2>
+            <p class="my-2">
+                Vamos lá, junte-se aos mais de 20 milhões que escolheram o SoundVerse.
+                Conte com o aplicativo de musica que mais cresce no Brasil. É de graça. É para todos.
+                Clique e baixe o App.
+            </p>
+            <div class="flex-start mt-2">
+                <a href="#"><img class="width-auto button"
+                        style="filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));" src="svg/app-store.svg"
+                        loading="lazy" onload="SVGInject(this)" /></a>
+                <a href="#"><img class=" width-auto button ml-2"
+                        style="filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));" src="svg/google-play.svg"
+                        loading="lazy" onload="SVGInject(this)" /></a>
+            </div>
+
+        </div>
+        <div class="flex-item-1 flex-center mx-3" data-aos="fade-up" data-aos-delay="400">
+            <img src="svg/fignu4.svg" loading="lazy" onload="SVGInject(this)" />
+        </div>
+
+    </section>
+
+
+    <!--========== NUCONTA ==========-->
+
+    <div class="bg-invite">
+        <img src="svg/fignu5.svg" class="svg-bg-invite" loading="lazy" onload="SVGInject(this)" />
+
+        <section class="container" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="flex-item-1 flex-center flex-column mx-2">
+                <h5 class="mb-1 mt-2">nuconta</h5>
+                <h2 class="mb-1 text-center">O melhor das musicas. Pra você.</h2>
+                <p class="my-2 text-center">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quis pellentesque vulputate at mattis nibh nulla est.
+                    Pharetra, eget purus tortor nibh porta ipsum enim urna viverra.
+                    Pharetra, eget purus tortor nibh porta ipsum enim urna viverra.
+                </p>
+                <div class="my-2">
+                    <a href="#" class="btn">Quero SoundVerse</a>
+                </div>
+
+
+            </div>
+
+        </section>
+    </div>
+
+    <!--========== FOOTER ==========-->
+    <footer>
+        <section class="container py-3 ">
+            <div class="footer-flex-1">
+                <img src="svg/logonu-white.svg" style="max-width: 90px;" class="mx-1" loading="lazy"
+                    onload="SVGInject(this)" />
+                <p>
+                    SoundVerse S.A. 18.2546.320/0111-58
+                    Rua Creplelino, 3129 - São Paulo, SP - 03064-001
+                </p>
+            </div>
+            <div class="footer-flex-2">
+                <img src="svg/icon-facebook.svg" class="mx-1" loading="lazy" onload="SVGInject(this)" />
+                <img src="svg/icon-youtube.svg" class="mx-1" loading="lazy" onload="SVGInject(this)" />
+                <img src="svg/icon-instagram.svg" class="mx-1" loading="lazy" onload="SVGInject(this)" />
+                <img src="svg/icon-twitter.svg" class="mx-1" loading="lazy" onload="SVGInject(this)" />
+            </div>
+        </section>
+    </footer>
+
+
+    <!--========== APP JS ==========-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            easing: "ease-out-quart",
+            duration: 1000,
+            once: true,
+        });
+    </script>
+
+    <script>
+        const swiper = new Swiper(".swiper-container", {
+            slidesPerView: "auto",
+            spaceBetween: 40,
+            grabCursor: true,
+            pagination: {
+                el: "swiper-pagination",
+                clickable: true,
+                type: "progressbar",
+            },
+            navigation: {
+                nextEl: ".button-next",
+                prevEl: ".button-prev",
+            },
+        });
+    </script>
+
+
+</body>
+
+<!-- Mirrored from www.nyousefali.com.br/nubank/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Nov 2021 13:52:25 GMT -->
+
+</html>
